@@ -1,0 +1,56 @@
+#hud {
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: rgb(73, 221, 5);
+    font-size: 50px;
+    z-index: 100; /* Ensures HUD is above the canvas */
+    background-color: rgba(0, 0, 0, 0.5); /* Optional: adds semi-transparent background */
+    padding: 5px;
+    
+}
+
+#powerhud {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    z-index: 100;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 5px;
+}
+
+#combohud {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    z-index: 100;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 5px;
+}
+
+#scorecombop1 {
+    position: absolute;
+    left: 10px;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    z-index: 100;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 5px;
+}
+
+#scorecombop2 {
+    position: absolute;
+    right: 10px;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    z-index: 100;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 5px;
+}
